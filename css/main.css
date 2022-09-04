@@ -1,0 +1,69 @@
+@font-face {
+    font-family: iran;
+    src: url(../font/iran.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: iran;
+}
+
+body {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-right > a {
+    margin-right: 25px;
+    font-size: 1.2rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.nav-right > a:hover {
+    color: black;
+}
+
+.nav-right > a > i {
+    padding: 8px 0;
+}
+
+.nav-left {
+    border: 1px solid #444;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-left:hover i,
+.nav-left:hover a,
+.nav-left:hover {
+    color: black;
+}
+
+.nav-left > div > i {
+    margin-left: 5px;
+    transform: translateY(20%);
+    color: #444;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-left > div > a {
+    color: #444;
+    font-size: .9rem;
+    font-weight: bold;
+}
