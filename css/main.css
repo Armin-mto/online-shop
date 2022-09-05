@@ -19,6 +19,8 @@ a {
     text-decoration: none;
 }
 
+/* nav */
+
 header > nav {
     display: flex;
     justify-content: space-between;
@@ -66,4 +68,60 @@ header > nav {
     color: #444;
     font-size: .9rem;
     font-weight: bold;
+}
+
+/* slider */
+
+.slider {
+    position: relative;
+}
+
+.slider > .slides {
+
+}
+
+.slider > .slides > .item {
+    position: relative;
+    display: none;
+}
+
+.slider > .slides > .active {
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.slider > .slides > .item > img {
+    width: 100%;
+} 
+
+.slider > .slides > .item:nth-child(2) > span{
+    color: white;
+}
+
+.slider > .slides > .item > span {
+    position: absolute;
+    color: #222;
+    top: 40%;
+    right: 8%;
+    font-size: 1.8rem;
+}
+
+.slider > .buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    z-index: 1;
+}
+
+.slider > .buttons > i {
+    color: white;
+    opacity: .7;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.slider > .buttons > i:hover {
+    opacity: .9;
 }

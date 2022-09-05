@@ -7,6 +7,7 @@
     <title>online shop</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
@@ -25,8 +26,34 @@
             </div>
         </nav>
         <section class="slider">
-
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./images/s1.jpg" alt="">
+                    <span>
+                        آهنگ هارو زنده تر از اون چیزی که هستن گوش بده
+                    </span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./images/s2.jpg" alt="">
+                    <span>
+                        کیفیت صدایی که همیشه <br/> دنبالش بودی اینجاست
+                    </span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./images/s3.jpg" alt="">
+                    <span>
+                        رویا هاتو با صدای بلند گوش بده
+                    </span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
         </section>
     </header>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
