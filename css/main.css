@@ -217,3 +217,93 @@ header > nav {
 .product-sec .shopping-card .buttons div.left .extand-btn i {
     color: white;
 }
+
+
+/* amazing offer */
+
+section.amazing-offer {
+    padding: 20px;
+}
+
+.amazing-offer-box {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.amazing-offer-box .title {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.amazing-offer-box div.amazing-offer-body .image-container {
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+}
+
+.amazing-offer-box div.amazing-offer-body .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.amazing-offer-box div.amazing-offer-body .specification {
+    padding: 30px 5px;
+}
+
+.amazing-offer-box div.amazing-offer-body .specification .price-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazing-offer-box div.amazing-offer-body .specification .price-row .price {
+    margin-left: 60px;
+    color: #444;
+    font-size: 1.2rem;
+}
+
+.amazing-offer-box div.amazing-offer-body .specification .price-row .offer {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+.amazing-offer-box div.amazing-offer-body .specification .offer-title {
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4rem;
+}
+
+.amazing-offer-box div.amazing-offer-body .specification .counter-down {
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.8rem;
+}
+
+.amazing-offer-box div.amazing-offer-body .specification .remaining-time {
+    color: #777;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+div.banner {
+    text-align: center;
+    padding: 0 5px;
+}
+
+div.banner img {
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    width: 62%;
+}
