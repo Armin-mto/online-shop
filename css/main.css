@@ -222,7 +222,7 @@ header > nav {
 /* amazing offer */
 
 section.amazing-offer {
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 .amazing-offer-box {
@@ -244,7 +244,6 @@ section.amazing-offer {
 .amazing-offer-box div.amazing-offer-body .image-container {
     text-align: center;
     padding: 30px;
-    width: 80%;
 }
 
 .amazing-offer-box div.amazing-offer-body .image-container img {
@@ -305,7 +304,9 @@ div.banner {
 div.banner img {
     border-radius: 5px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
-    width: 62%;
+    width: 75%;
+    /* height: 513px; */
+    height: auto;
 }
 
 @media screen and (max-width:1199px) {
@@ -313,3 +314,9 @@ div.banner img {
         display: none;
     }
 }
+
+/* @media screen and (max-width:940px) {
+    .amazing-offer-box div.amazing-offer-body .image-container {
+        width: 50%;
+    }
+} */
